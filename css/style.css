@@ -25,7 +25,7 @@
 .www{
 	width: 100%;
 }
-.burger{
+.fa-ellipsis-h{
 	display: none;
 }
 /*banner*/
@@ -137,15 +137,36 @@
 	padding: 1px 0 50px 0;
 
 }
+.media-responsive{
+	width:50%;
+	margin-bottom: 100px;
+}
+.img-zomebi{
+	margin: auto;
+}
+.mini-banners-p{
+	width: calc(100% - 60px);
+	margin: auto;
+	text-align: center;
+}
+.mini-banners-h1{
+	text-align: center;
+}
 @media (max-width: 800px){
 	.navigation{
 		display: none;
 	}
+	.fa-ellipsis-h{
+		display: block;
+	}
 	.burger-responsive{
-	width: calc(100% - 40px);
+	width: calc(100% - 40px); <<es 
 }
 }
 @media(max-width: 500px){
+	.media-responsive{
+		width:100%;
+	}
 	.mini-banners-1{
 		flex-wrap: wrap;
 		flex-direction: column;
@@ -177,6 +198,8 @@
 }
 }
 
+
+
 /**/
 .PHOTODIARY{
 	width: calc(100% - 40px);
@@ -192,9 +215,6 @@
 .img-zomebi{
 	width: calc(100% - 40px);
 	margin-top: auto;
-}
-.test{
-	margin:unset;
 }
 .gray-bg{
 	margin-bottom: 20px;
